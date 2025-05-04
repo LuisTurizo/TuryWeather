@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuryWeather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>TuryWeather</h1>
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Busca una ciudad...">
+            <button id="search-btn">Buscar</button>
+            </div>
+            <!-- Dentro del div.app, después del botón de búsqueda -->
+        <button class="btnlocation" id="geolocation-btn">Usar mi ubicación</button>
+        <div class="weather-info">
+            <div id="location">Ciudad</div>
+            <div id="temperature">0°C</div>
+            <div id="description">--</div>
+            <div id="humidity">Humedad: 0%</div>
+            <div id="wind">Viento: 0 km/h</div>
+        </div>
+        <div class="spinner" id="spinner"></div>
+        <div class="suggestions" id="suggestions"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
